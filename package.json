@@ -1,0 +1,25 @@
+{
+  "name": "requirejs",
+  "version": "1.0.0",
+  "description": "Simple require.js",
+  "main": "src/require.js",
+  "scripts": {
+    "examples": "node serve.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangxinp/requirejs.git"
+  },
+  "author": {
+    "name": "Simon Yang",
+    "email": "naclyang@foxmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangxinp/requirejs/issues"
+  },
+  "homepage": "https://github.com/yangxinp/requirejs#readme",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}

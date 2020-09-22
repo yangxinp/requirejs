@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>simple requirejs</title>
+  </head>
+  <body>
+    <div>这是异步的，不会阻塞（绿色字体表示当前script标签执行完毕）</div>
+    <div>每个文件都会有2秒的延迟，用来模拟网络加载过程</div>
+    <div id="content">（等待...）</div>
+
+    <script src="./require.js" data-main="./index.js"></script>
+    <script>
+      document.body.style.color = '#67C23A'
+    </script>
+  </body>
+</html>
